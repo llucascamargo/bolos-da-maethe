@@ -1,0 +1,67 @@
+
+/* Estilos globais / Remover espaço em branco que o navegador adiciona */
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #f2e6d6c9;
+}
+
+/* Barra bege */
+
+.header {
+    background-color: #f2e6d6c9;
+    padding: 32px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #3D2114;
+}
+
+/*Título */
+
+.topo {
+    color: #3D2114;
+    font-size: 30px; 
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive !important;
+    text-decoration: none;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+/*Organização dos botões */
+
+.container-botoes {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para os botões */
+
+.botaoAtendimento, .botaoDelivery {
+    background-color: #3D2114;
+    color: white;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+    border: 2px solid #3D2114;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.topo:hover {
+    opacity: 0.8;
+}
+
+/* Efeito hover para os botões */
+
+.botaoAtendimento:hover, .botaoDelivery:hover {
+    background-color: #f2e6d6c9;
+    color: #3D2114;
+}
